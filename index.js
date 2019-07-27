@@ -50,7 +50,7 @@ async function getChallengeJson() {
             //console.log("Meu Desafio", res)
             json = { cifrado, decifrado, numero_casas, resumo_criptografico, token } = res.data
         }).catch((erro) => {
-            console.error("Falha ao receber o JSON", erro)
+            console.error("Falha ao receber o JSON", erro.message)
         })
     return json
 }
@@ -67,7 +67,7 @@ async function sendChallengeJson(json) {
             //console.log("Minha Nota", res.data)
             response = res.data.score
         }).catch((erro) => {
-            console.error("Falha ao enviar o JSON", erro)
+            console.error("Falha ao enviar o JSON", erro.message)
         })
     return response
 }
