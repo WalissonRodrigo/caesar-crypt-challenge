@@ -47,10 +47,10 @@ async function getChallengeJson() {
     let json = null
     await axios.get("https://api.codenation.dev/v1/challenge/dev-ps/generate-data", { params: tokenCodeNation })
         .then((res) => {
-            console.log("Meu Desafio", res)
+            //console.log("Meu Desafio", res)
             json = { cifrado, decifrado, numero_casas, resumo_criptografico, token } = res.data
         }).catch((erro) => {
-            console.error("Deu Ruim no JSON", erro)
+            console.error("Falha ao receber o JSON", erro)
         })
     return json
 }
@@ -64,10 +64,10 @@ async function sendChallengeJson(json) {
         params: tokenCodeNation, headers: headers
     })
         .then((res) => {
-            console.log("Minha Nota", res.data)
+            //console.log("Minha Nota", res.data)
             response = res.data.score
         }).catch((erro) => {
-            console.error("Deu Ruim no JSON", erro)
+            console.error("Falha ao enviar o JSON", erro)
         })
     return response
 }
