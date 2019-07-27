@@ -1,2 +1,2 @@
-# ceasar-crypt-challenge
+# caesar-crypt-challenge
 This code made in NodeJS was built with the purpose of encoding and decoding texts using Julius Caesar's cryptography. However it has a library for using several different cryptographic methods. The data source used is captured via JSON with Apis directly on the routes provided by the challenging Codenation, as the end result a JSON with the data already decrypted and then re-encrypted in SHA1 is sent back to get the final grade of the challenge. . This programming challenge was made by the Codenation for Professional Acceleration in React Native. Thus this code has no documentation about the fonts used here.
