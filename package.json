@@ -1,5 +1,5 @@
 {
-  "name": "challenge",
+  "name": "caesar-crypt-challenge",
   "version": "1.0.0",
   "description": "Desafio de programação para participar de curso de react",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/WalissonRodrigo/challengejs.git"
+    "url": "github.com/WalissonRodrigo/caesar-crypt-challenge.git"
   },
   "keywords": [
     "challenge",
