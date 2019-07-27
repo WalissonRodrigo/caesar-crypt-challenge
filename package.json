@@ -1,0 +1,31 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "Desafio de programação para participar de curso de react",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/WalissonRodrigo/challengejs.git"
+  },
+  "keywords": [
+    "challenge",
+    "js",
+    "node",
+    "programação",
+    "react",
+    "native",
+    "cryptographic"
+  ],
+  "author": "Walisson Rodrigo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^8.0.0",
+    "form-data": "^2.5.0"
+  }
+}
